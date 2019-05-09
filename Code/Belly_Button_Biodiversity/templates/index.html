@@ -14,19 +14,19 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h1>Belly Button Biodiversity: An Interactive Dash</h1>
+        <p>Use the interactive charts below to explore the dataset!</p>
       </div>
     </div>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>SELECT Sample:</h5>
+          <h5>Select Sample - Belly Button:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Sample MetaData</h3>
+            <h3 class="panel-title">Belly Button Demographics</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
         </div>
@@ -35,14 +35,20 @@
         <div id="pie"></div>
       </div>
       <div class="col-md-5">
-        <div id="gauge"></div>
+        <div id="gauge">
+          <h3>What is Biodiversity?</h3>
+          <p>Biodiversity refers to the variety of life in the world or in a particular habitat or ecosystem. In this case, scientists looked at human belly buttons as a particular ecosystem or habitat!</p>
+          <br>
+          <p>We humans are colonized by microorganisms from our enviroment. These microorganisms create a unique microbiome, or small ecosystem, on/in each one of us! Our unique genetics and lifestyles individualize our microbiomes, which interact with our bodies in complex ways via interrelated physiological systems. Doctors and researchers are very interested in what a certain microbiome composition can tell us about an individuals health, community, and lifestyle!</p>
+        </div>
       </div>
     </div>
-  </div>
+    <hr>
   <div class="row">
     <div class="col-md-12">
       <div id="bubble"></div>
     </div>
+  </div>
   </div>
 
   <!-- <script src="https://cdn.plot.ly/plotly-1.31.2.min.js"></script> -->
@@ -54,3 +60,6 @@
 </body>
 
 </html>
+
+<!-- ######################### -->
+<!-- USE CSS TO IMPROVE COLOR -->
