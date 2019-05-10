@@ -60,10 +60,18 @@ function bubbleChart(data) {
   
   var layout = {
     title: '<b>Biodiversity Bubble Chart</b>',
+    xaxis: {
+      title: 'Microbe ID',
+      titlefont: {
+        family: 'Arial, sans-serif',
+        size: 18,
+        color: 'grey'
+      },
     showlegend: false,
     height: 600,
     width: 1000
-  };
+  }
+};
   
   Plotly.newPlot('bubble', data, layout);
 }
