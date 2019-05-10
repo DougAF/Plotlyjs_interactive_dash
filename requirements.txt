@@ -2,9 +2,7 @@ certifi==2018.4.16
 click==6.7
 Flask==1.0.2
 Flask-SQLAlchemy==2.3.2
-itsdangerous==0.24
-
-gunicorn==0.14.2Jinja2==2.10
+itsdangerous==0.24gunicorn==19.9.0Jinja2==2.10
 MarkupSafe==1.0
 numpy==1.14.5
 pandas==0.23.3
