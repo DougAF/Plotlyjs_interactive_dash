@@ -9,8 +9,10 @@ App Deployed here https://bellybuttonbio-diversity.herokuapp.com/
 ## Methods
 * Data Analytics 
 * Data Visualization
-* API 
-* Full Stack App
+* RESTful API 
+* Database production/ querying 
+* Full Stack Application building
+
 
 ## Technologies
 * JavaScript
@@ -18,6 +20,7 @@ App Deployed here https://bellybuttonbio-diversity.herokuapp.com/
 * HTML
 * Bootstrap 
 * Flask 
+* SQL Alchemy 
 
 
 
