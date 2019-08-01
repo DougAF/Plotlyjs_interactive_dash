@@ -4,7 +4,7 @@ This project uses Plotly.js to build interactive charts that pull data from a RE
 ## Link to App
 App Deployed here https://bellybuttonbio-diversity.herokuapp.com/
 
-<img src="images/dash.png.png">
+<img src="Images/dash.png.png">
 
 ## Methods
 * Data Analytics 
